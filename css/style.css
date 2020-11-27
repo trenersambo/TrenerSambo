@@ -1,0 +1,174 @@
+@charset "utf 8";
+body {
+	background-repeat: repeat;
+	font-family: Arial, Helvetica, sans serif;
+	font-size: 14px;
+	color: #333;
+	background-color: #EAEAEA;
+	background-image: url(../img/Polosy.png);
+}
+
+/*общая обертка*/
+#wrapper 
+{
+	background-color: ;
+	/* [disabled]height: 4000px; */
+	width: 950px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 25px;
+	margin-left: auto;
+	/* [disabled]border: 1px solid #999; */
+}
+.DivHeader {
+	height: 250px;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #333;
+	margin-top: auto;
+	/* [disabled]margin bottom: 30px; */
+	background-color: #FFF;
+	background-image: url(../img/HeaderSambo2.jpg);
+}
+.DivHeader p {
+	font-family: Tahoma, Geneva, sans serif;
+	font-size: 36px;
+	font-weight: 300;
+	text-align: center;
+}
+.DivHeader img {
+	height: 200px;
+	width: 200px;
+	background-position: 300px 100px;
+	position: absolute;
+	z-index: 1;
+	margin-left: 850px;
+}
+
+.top-nav {
+	font-size: 1em;
+	/* [disabled]color: #FFC; */
+	/* [disabled]text align: right; */
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	/* [disabled]border bottom color: #060; */
+	background-image: url(../img/bg6.jpg);
+	background-repeat: repeat x;
+	/* [disabled]background color: #FF0; */
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 20px;
+}
+
+.top-nav a:link, .top-nav a:visited {
+	text-decoration: none;
+	color: #333333;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+.top-nav a:hover, .top-nav a:active, .top-nav a:focus{
+	background-color: #FF0000;
+	padding-top: 5px;
+	color: #FFF;
+}
+
+
+.Content {
+	/* [disabled]height: 1500px; */
+	width: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	border: 1px solid #333;
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	Line-height: 1.5;
+	text-align: left;
+	margin-right: auto;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.tableSocial {
+	height: auto;
+	/* [disabled]margin-left: 10px; */
+}
+.tdLogo {
+	height: 150px;
+	width: 280px;
+}
+.tdLogo img {
+	height: 100px;
+	width: 250px;
+	margin-top: 25px;
+}
+.tdTextLogo {
+	text-align: left;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+ul .liArrow {
+	background-repeat: no repeat;
+	list-style-type: none;
+	padding-left: 0px;
+	list-style-image: url(../img/arroww.png);
+	list-style-position: outside;
+}
+
+
+
+.tdPodpis {
+	width: 130px;
+}
+#FotoContent {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	height: 300px;
+	width: 300px;
+}
+#FotoContentRight {
+	float: right;
+	height: 300px;
+	width: 300px;
+	margin-left: 20px;
+}
+
+#FotoContentBig {
+	text-align: center;
+	/* [disabled]margin-left: 60px; */
+}
+#MailCall {
+
+
+
+}
+
+
+#ButtonMail {
+	height: 80px;
+	width: 300px;
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-right: 25px;
+}
+
+#ButtonCall {
+	float: inherit;
+	height: 80px;
+	width: 300px;
+}
