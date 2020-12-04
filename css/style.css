@@ -172,3 +172,8 @@ ul .liArrow {
 	height: 80px;
 	width: 300px;
 }
+div .scrollup {
+	position: fixed;
+	right: 20px;
+	top: 650px;
+}
